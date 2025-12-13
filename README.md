@@ -1,6 +1,8 @@
 # Endo-SemiS
 Endo-SemiS: Towards Robust Semi-supervised Image Segmentation for Endoscopic Video
 
+This work has been submitted to MIDL2026
+
 
 
 
