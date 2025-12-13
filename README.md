@@ -67,8 +67,9 @@ Test and training logs are attached to these links.
 ## Quantitative results of kidney dataset (10% labeled data)
 
 
-**Kidney results (mean ± stdev., in %) with 10% labeled data.**  
-**Bold** indicates the **best**. Sections: supervised, semi-supervised (single network), cross-supervised, and supervised with 100% labeled data (upper bound). Our method achieves the highest Dice, Sensitivity, F1, and Accuracy.
+**Kidney results (mean ± stdev., in %) with 10% labeled data.** Sections: supervised, semi-supervised (single network), cross-supervised, and supervised with 100% labeled data (upper bound). Our method achieves the highest Dice, Sensitivity, F1, and Accuracy.
+
+🏆 = best
 
 | Group | Methods | Dice | Sensitivity | Specificity | Pre. | Rec. | F1 | Acc. |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
@@ -77,12 +78,12 @@ Test and training logs are attached to these links.
 | Semi-supervised (single network) | Generic | 78.5±31.7 | 86.1±25.7 | 92.3±13.9 | 90.7 | 95.3 | 92.9 | 90.5 |
 | Semi-supervised (single network) | AllSpark | 77.0±31.2 | 88.0±24.8 | 89.3±18.0 | 94.7 | 92.8 | 93.8 | 91.7 |
 | Semi-supervised (single network) | UPRC | 80.7±31.4 | 84.0±27.3 | 96.4±7.8 | 92.9 | 94.6 | 93.7 | 91.6 |
-| Semi-supervised (single network) | FixMatch | 81.9±31.7 | 89.8±22.4 | 94.3±10.9 | 89.7 | **96.5** | 93.0 | 90.5 |
+| Semi-supervised (single network) | FixMatch | 81.9±31.7 | 89.8±22.4 | 94.3±10.9 | 89.7 | `96.5` 🏆 | 93.0 | 90.5 |
 | Semi-supervised (single network) | UniMatch | 85.5±27.6 | 89.4±23.2 | 95.5±8.9 | 94.3 | 96.4 | 95.4 | 91.7 |
 | Semi-supervised (single network) | Mean Teacher | 82.2±31.2 | 84.1±28.6 | 96.6±8.5 | 95.6 | 90.5 | 93.0 | 91.1 |
 | Cross-supervised | CPS | 85.2±28.0 | 88.8±22.8 | 95.8±8.8 | 94.0 | 96.1 | 95.0 | 93.4 |
-| Cross-supervised | Cross Teaching | 85.6±28.7 | 87.6±26.5 | **96.7±7.4** | **96.5** | 92.6 | 94.8 | 92.9 |
-| Cross-supervised | Endo-SemiS (Ours) | **87.6±26.4** | **91.1±21.5** | 96.0±8.4 | 95.0 | 96.1 | **95.6** | **94.1** |
+| Cross-supervised | Cross Teaching | 85.6±28.7 | 87.6±26.5 | `96.7±7.4` 🏆 | `96.5` 🏆 | 92.6 | 94.8 | 92.9 |
+| Cross-supervised | Endo-SemiS (Ours) | `87.6±26.4` 🏆 | `91.1±21.5` 🏆 | 96.0±8.4 | 95.0 | 96.1 | `95.6` 🏆 | `94.1` 🏆 |
 | Upper bound (100%) | Upper bound U-Net | 85.3±29.2 | 89.0±24.5 | 96.5±8.2 | 94.4 | 94.2 | 94.3 | 92.5 |
 | Upper bound (100%) | Upper bound nnU-Net | 85.5±28.5 | 89.3±24.5 | 96.0±8.6 | 92.4 | 93.3 | 92.9 | 90.5 |
 
