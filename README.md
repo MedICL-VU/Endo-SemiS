@@ -4,7 +4,7 @@ Endo-SemiS: Towards Robust Semi-supervised Image Segmentation for Endoscopic Vid
 This work has been submitted to MIDL2026
 
 
-<img src='figs/qualitative_zoom.pdf' width='600'>
+<img src='figs/qualitative_zoom.png' width='1000'>
 
 PRISM is a robust model/method for interactive segmentation in medical imaging. We strive for human-level performance, as a human-in-loop interactive segmentation model with prompts should gradually refine its outcomes until they closely match inter-rater variability.
 
