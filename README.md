@@ -54,11 +54,11 @@ same augments will be used for **train_semi_polygen.py** and **test_sup_polygen.
 
 ## Datasets
 
-Kidney stone dataset: this is a in-house dataset and we are not able to share it. If you are an internal collaborator, please reach out to me.
+**Kidney stone dataset**: this is a in-house dataset and we are not able to share it. If you are an internal collaborator, please reach out to me.
 
-Polyp Screening dataset: the dataset used in our experiments can be viewed [here](https://drive.google.com/drive/u/1/folders/1BOXBV-FuvldKuylV82Yqf2F9HOb1ru7S), more information can be viewed via this [link](https://github.com/DebeshJha/PolypGen).
+**Polyp Screening dataset**: this is a public dataset, they can be viewed [here](https://drive.google.com/drive/u/1/folders/1BOXBV-FuvldKuylV82Yqf2F9HOb1ru7S), more information can be viewed via this [link (PolyGen's Github repo)](https://github.com/DebeshJha/PolypGen).
 
-Our training/test data split is [here](https://github.com/MedICL-VU/Endo-SemiS/tree/main/src/data_split).
+**Our training/test data split** is [here](https://github.com/MedICL-VU/Endo-SemiS/tree/main/src/data_split).
 
 ## Pretrained models and logs
 | kidney Endo-SemiS | polyp Endo-SemiS | polyp full sup | polyp semi10 sup |
