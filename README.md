@@ -3,8 +3,12 @@ Endo-SemiS: Towards Robust Semi-supervised Image Segmentation for Endoscopic Vid
 
 This work has been submitted to MIDL2026
 
-
-Our work can be summarized as follows: (a) We use a cross-supervision framework to avoid biased learning from a single network. (b) We use uncertainty to improve the quality of each network’s pseudo-labels. (c) When one network’s prediction has a large defect with high confidence values, we fuse a joint pseudo-label by selecting the most confident regions and use this pseudo-label to supervise both networks. (d) We use multi-level mutual learning to further mitigate confirmation bias and improve consistency between networks, producing more reliable pseudo-labels.
+##
+Our work can be summarized as follows: \
+(a) We use a cross-supervision framework to avoid biased learning from a single network. \
+(b) We use uncertainty to improve the quality of each network’s pseudo-labels. \
+(c) When one network’s prediction has a large defect with high confidence values, we fuse a joint pseudo-label by selecting the most confident regions from both network and use this pseudo-label to supervise them. \
+(d) We use multi-level mutual learning to further mitigate confirmation bias and improve consistency between networks, producing more reliable pseudo-labels.
 
 <img src='figs/framework_new.png' width='800'>
 
