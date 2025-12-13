@@ -56,7 +56,7 @@ same augments will be used for **train_semi_polygen.py** and **test_sup_polygen.
 
 **Kidney stone dataset**: this is a in-house dataset and we are not able to share it. If you are an internal collaborator, please reach out to me.
 
-**Polyp Screening dataset**: this is a public dataset, they can be viewed [here](https://drive.google.com/drive/u/1/folders/1BOXBV-FuvldKuylV82Yqf2F9HOb1ru7S), more information can be viewed via this [link (PolyGen's Github repo)](https://github.com/DebeshJha/PolypGen).
+**Polyp Screening dataset**: this is a public dataset, they can be viewed [here](https://drive.google.com/drive/u/1/folders/1BOXBV-FuvldKuylV82Yqf2F9HOb1ru7S), more information can be viewed via this [link (dataset official Github repo)](https://github.com/DebeshJha/PolypGen).
 
 **Our training/test data split** is [here](https://github.com/MedICL-VU/Endo-SemiS/tree/main/src/data_split).
 
