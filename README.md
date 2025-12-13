@@ -66,6 +66,18 @@ Test and training logs are attached to these links.
 The kidney stone laser lithotomy (surgery) exhibits large variation in image quality due to the complex in vivo environment during surgery. Here we show qualitative kidney stone results (10\% labeled data). Yellow circles highlight poor visibility areas. (a) fiberoptic frames, (b) digital frames, (c) fluid distortions,  (d) motion blur, (e) debris during stone ablation, and (f) illumination changes.
 <img src='figs/qualitative_zoom.png' width='800'>
 
+## Citing Endo-SemiS
+If you find our Endo-SemiS helpful, please use the following BibTeX entry.
+
+```
+@inproceedings{li2024interactive,
+  title={Endo-SemiS: Towards Robust Semi-Supervised Image Segmentation for Endoscopic Video,
+  author={Li, Hao and Lu, Daiwei, Wang, Jiacheng and Kavoussi, Nicholas and Oguz, Ipek},
+  booktitle={Medical Imaging in Deep Learning},
+  year={2026 (submitted)}
+}
+```
+
 ## Acknowledgements
 [SSL4MIS](https://github.com/HiLab-git/SSL4MIS)
 
