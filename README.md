@@ -4,9 +4,11 @@ Endo-SemiS: Towards Robust Semi-supervised Image Segmentation for Endoscopic Vid
 This work has been submitted to MIDL2026
 
 
-<img src='figs/qualitative_zoom.png' width='1000'>
+Our work can be summarized as follows: (a) We use a cross-supervision framework to avoid biased learning from a single network. (b) We use uncertainty to improve the quality of each network’s pseudo-labels. (c) When one network’s prediction has a large defect with high confidence values, we fuse a joint pseudo-label by selecting the most confident regions and use this pseudo-label to supervise both networks. (d) We use multi-level mutual learning to further mitigate confirmation bias and improve consistency between networks, producing more reliable pseudo-labels.
 
-PRISM is a robust model/method for interactive segmentation in medical imaging. We strive for human-level performance, as a human-in-loop interactive segmentation model with prompts should gradually refine its outcomes until they closely match inter-rater variability.
+<img src='figs/framework_new.png' width='800'>
+
+The details of our methods and results can be viewed in the paper.
 
 ## Usage
 
@@ -54,6 +56,11 @@ same augments will be used for **train_semi_polygen.py** and **test_sup_polygen.
 | Internal, currently (contact me) |[Download](https://drive.google.com/drive/u/1/folders/1yW8wm1IKgKUbqxoCRjtfC4uKsuVGJdif)| [Download](https://drive.google.com/drive/u/1/folders/1HyaMSjIDLcjZXCS8qz6FMO7TFTdd1N7e) |[Download](https://drive.google.com/drive/u/1/folders/1Qs0m1GiR_KwFvjOce8R48dmxAD5kbcgY)|
 
 Test and training logs are attached to these links.
+
+
+## Qualitative results of kidney dataset
+The kidney stone laser lithotomy (surgery) exhibits large variation in image quality due to the complex in vivo environment during surgery. Here we show qualitative kidney stone results (10\% labeled data). Yellow circles highlight poor visibility areas. (a) fiberoptic frames, (b) digital frames, (c) fluid distortions,  (d) motion blur, (e) debris during stone ablation, and (f) illumination changes.
+<img src='figs/qualitative_zoom.png' width='800'>
 
 ## Acknowledgements
 [SSL4MIS](https://github.com/HiLab-git/SSL4MIS)
