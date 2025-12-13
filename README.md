@@ -80,6 +80,8 @@ If you find our Endo-SemiS helpful, please use the following BibTeX entry.
   year={2026 (submitted)}
 }
 ```
+## Contact
+Email: hao.li.1@vanderbilt.edu
 
 ## Acknowledgements
 [SSL4MIS](https://github.com/HiLab-git/SSL4MIS)
