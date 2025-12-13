@@ -55,9 +55,13 @@ python test_semi_polygen.py --name <your running name> --json_path <your json fi
 
 same augments will be used for **train_semi_polygen.py** and **test_sup_polygen.py**
 
+## Datasets
 
+Kidney stone dataset: this is a in-house dataset and we are not able to share it. If you are an internal collaborator, please reach out to me.
 
-## Pretrained models
+Polyp Screening dataset: the dataset used in our experiments can be viewed [here](https://drive.google.com/drive/u/1/folders/1BOXBV-FuvldKuylV82Yqf2F9HOb1ru7S)
+
+## Pretrained models and logs
 | kidney Endo-SemiS | polyp Endo-SemiS | polyp full sup | polyp semi10 sup |
 |------------------------------|------------------------------|------------------------------|------------------------------|
 | Internal, currently (contact me) |[Download](https://drive.google.com/drive/u/1/folders/1yW8wm1IKgKUbqxoCRjtfC4uKsuVGJdif)| [Download](https://drive.google.com/drive/u/1/folders/1HyaMSjIDLcjZXCS8qz6FMO7TFTdd1N7e) |[Download](https://drive.google.com/drive/u/1/folders/1Qs0m1GiR_KwFvjOce8R48dmxAD5kbcgY)|
