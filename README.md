@@ -1,6 +1,6 @@
 # Endo-SemiS: Towards Robust Semi-supervised Image Segmentation for Endoscopic Video
 
-This work has been submitted to MIDL2026, here is the [paper](https://openreview.net/pdf?id=7AzXLyjyng)
+This work has been submitted to MIDL2026, here is the [paper](https://arxiv.org/pdf/2512.16977)
 
 ##
 Our work can be summarized as follows: \
