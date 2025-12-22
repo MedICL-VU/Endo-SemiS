@@ -1,4 +1,6 @@
-# [Endo-SemiS: Towards Robust Semi-supervised Image Segmentation for Endoscopic Video](https://arxiv.org/pdf/2512.16977)
+# Endo-SemiS: Towards Robust Semi-supervised Image Segmentation for Endoscopic Video
+
+[![Paper](https://img.shields.io/badge/paper-arXiv-green)](https://arxiv.org/pdf/2512.16977)
 
 This work has been submitted to MIDL2026, here is the [paper](https://arxiv.org/pdf/2512.16977)
 
