@@ -102,12 +102,12 @@ The kidney stone laser lithotomy (surgery) exhibits large variation in image qua
 ## Citing Endo-SemiS
 If you find our Endo-SemiS helpful, please use the following BibTeX entry.
 
-```
-@inproceedings{li2025endosemis,
-  title={Endo-SemiS: Towards Robust Semi-Supervised Image Segmentation for Endoscopic Video,
-  author={Li, Hao and Lu, Daiwei, Wang, Jiacheng and Kavoussi, Nicholas and Oguz, Ipek},
-  booktitle={Medical Imaging in Deep Learning},
-  year={2026 (submitted)}
+```\bibtex
+@article{li2025endo,
+  title={Endo-SemiS: Towards Robust Semi-Supervised Image Segmentation for Endoscopic Video},
+  author={Li, Hao and Lu, Daiwei and Yao, Xing and Kavoussi, Nicholas and Oguz, Ipek},
+  journal={arXiv preprint arXiv:2512.16977},
+  year={2025}
 }
 ```
 ## Contact
