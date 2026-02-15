@@ -2,7 +2,7 @@
 
 [![Paper](https://img.shields.io/badge/paper-arXiv-green)](https://arxiv.org/pdf/2512.16977)
 
-This work has been submitted to MIDL2026, here is the [paper](https://arxiv.org/pdf/2512.16977)
+This work has been accepted to MIDL2026, here is the [paper](https://arxiv.org/pdf/2512.16977)
 
 ##
 Our work can be summarized as follows: \
